@@ -1,3 +1,4 @@
+
 /* COPYRIGHT Original One 2023*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css';
@@ -774,7 +775,8 @@ div#tabs label li a {
   font-size: initial; }
 
 div#footer.footer {
-  background: url("https://i.ibb.co/6P5F62n/footer-new.jpg") center top;
+  background: url("https://i.ibb.co/6P5F62n/footer-new.jpg") 
+  center top;
   color: #e3e3e3;
   font-size: 1.3em;
   height: 241px !important;
