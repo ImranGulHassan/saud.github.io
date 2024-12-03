@@ -774,14 +774,23 @@ div#tabs label li a {
 #background #descriptioncontent font {
   font-size: initial; }
 
-div#footer.footer {
+/* div#footer.footer {
   background: url("https://i.ibb.co/6P5F62n/footer-new.jpg") 
   center top;
   color: #e3e3e3;
   font-size: 1.3em;
   height: 241px !important;
   position: relative;
-  }
+  } */
+div#footer.footer {
+  background: url("https://i.ibb.co/6P5F62n/footer-new.jpg") center top no-repeat;
+  background-size: cover; /* Adjusts the image to fill the container */
+  color: #e3e3e3;
+  font-size: 1.3em;
+  height: 241px !important;
+  position: relative;
+}
+
   div#footer.footer ul {
     padding: 0px;
     margin: 0px;
