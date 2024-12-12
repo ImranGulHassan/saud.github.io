@@ -783,7 +783,7 @@ div#tabs label li a {
   position: relative;
   } */
 div#footer.footer {
-  background: url("https://i.ibb.co/6P5F62n/footer-new.jpg") center top no-repeat;
+  background: url("https://storage.googleapis.com/pebbles_resources/Image_folder/Pebbles_Footer.jpg") center top no-repeat;
   background-size: cover; /* Adjusts the image to fill the container */
   color: #e3e3e3;
   font-size: 1.3em;
