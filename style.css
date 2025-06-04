@@ -665,6 +665,18 @@ div#tabs {
     transition: all 0.5s;
     font-weight: bold;
     text-transform: uppercase; }
+/* Hide the 2nd, 3rd, and 4th tab labels */
+div#tabs label:nth-child(4),
+div#tabs label:nth-child(6), 
+div#tabs label:nth-child(8),
+div#tabs label:nth-child(10) {
+    display: none !important;
+}
+
+/* Make first tab full width */
+div#tabs label:first-child li {
+    width: 100% !important;
+}
   div#tabs label li a {
     color: #fff;
     text-decoration: none; }
