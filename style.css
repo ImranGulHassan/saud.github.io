@@ -651,7 +651,7 @@ div#tabs {
     display: none; }
   div#tabs label.mobile_tab {
     display: none; }
-/*   div#tabs label li {
+   div#tabs label li {
     font-size: 1.4em;
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     border-radius: 0px 0px 0px 0px;
@@ -666,25 +666,25 @@ div#tabs {
     font-weight: bold;
     text-transform: uppercase; }
 /* Hide the 2nd, 3rd, and 4th tab labels */
-/* div#tabs label:nth-child(4),
+ div#tabs label:nth-child(4),
 div#tabs label:nth-child(6), 
 div#tabs label:nth-child(8),
 div#tabs label:nth-child(10) {
     display: none !important;
-} */
+} 
 
 /* Make first tab full width */
-/* div#tabs label:first-child li {
+div#tabs label:first-child li {
     width: 100% !important;
-} */ 
-div#tabs label li {
+} 
+/* div#tabs label li {
     font-size: 1.4em;
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     border-radius: 0px 0px 0px 0px;
     display: block;
     float: left;
     cursor: pointer;
-    width: 100% !important; /* Make single tab full width */
+    width: 100% !important;
     text-align: center;
     background: #090909;
     padding: 15px 0px;
@@ -692,10 +692,10 @@ div#tabs label li {
     transition: all 0.5s;
     font-weight: bold;
     text-transform: uppercase;
-}
+} */
 
 /* Hide specific tabs and their inputs */
-div#tabs #tab-2,
+/* div#tabs #tab-2,
 div#tabs #tab-3,
 div#tabs #tab-4,
 div#tabs #tab-5,
@@ -706,7 +706,7 @@ div#tabs label[for="tab-4"],
 div#tabs label[for="tab-5"],
 div#tabs label[for="tab-6"] {
     display: none !important;
-}
+} */
   div#tabs label li a {
     color: #fff;
     text-decoration: none; }
